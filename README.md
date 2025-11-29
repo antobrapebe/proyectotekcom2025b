@@ -30,13 +30,13 @@ mi_pagina/
 
 La imagen Docker se ejecuta con:
 
-👉 Docker Desktop (Windows / Mac)
-👉 Docker Engine (Linux)
+ Docker Desktop (Windows / Mac)
+ Docker Engine (Linux)
 
 No importa el IDE (VS Code, PyCharm, etc.).
 Lo único necesario es Docker.
 
-## ✅ Cómo ejecutar tu imagen en otra PC (paso por paso)
+## ¿Cómo ejecutar tu imagen en otra PC?
 
 Estos pasos funcionan en cualquier computadora:
 
@@ -71,3 +71,4 @@ docker run -p 5000:5000 ghcr.io/antobrapebe/proyectotekcom2025b:latest
 
 ✔ -p 5000:5000 expone el puerto
 ✔ Se abre en el navegador: http://localhost:5000/
+
