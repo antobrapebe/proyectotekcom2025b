@@ -4,24 +4,23 @@ Proyecto web simple basado en Flask + SQLite + Docker.
 
 ## Estructura
 
-mi_pagina/
-│── Dockerfile
-│── docker-compose.yml
-│── requirements.txt
-│── app.py
-│── .env
-│
-├── templates/
-│   └── index.html
-│
-├── static/
-│   ├── style.css
-│   ├── script.js
-│   └── img/ (agrega tus imágenes aquí)
-│
+KEYSTOREMX/
+├── app.py
 ├── database/
-│   └── schema.sql
-│
+│ ├── keystore.db
+│ └── schema.sql
+├── static/
+│ ├── img/
+│ ├── script.js
+│ └── style.css
+├── templates/
+│ ├── index.html
+│ ├── login.html
+│ └── register.html
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── .env
 └── README.md
 
 ## Uso
@@ -71,4 +70,5 @@ docker run -p 5000:5000 ghcr.io/antobrapebe/proyectotekcom2025b:latest
 
 ✔ -p 5000:5000 expone el puerto
 ✔ Se abre en el navegador: http://localhost:5000/
+
 
